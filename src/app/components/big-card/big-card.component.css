@@ -1,0 +1,58 @@
+.bigcard-container {
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    color: #FFF;
+    margin: 10px;
+}
+
+.bigcard-main-image {
+    width: 100%;
+}
+
+.bigcard-infos {
+    margin: 5px 15px;
+    text-align: justify;
+}
+
+.bigcard-infos > h1 {
+    margin: 0px 5px 7px 5px;
+    font-size: 30px;
+}
+
+.bigcard-infos > h3 {
+    margin: 7px 5px;
+    font-size: 18px;
+}
+
+.bigcard-infos > p {
+    margin: 15px 5px;
+    line-height: 150%;
+    font-size: 16px;
+    color: #CCC;
+}
+
+.bigcard-options {
+    display: flex;
+    justify-content: space-between;
+    margin: 7px 5px;
+}
+
+.bigcard-option {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.bigcard-option > p {
+    padding-left: 6px;
+    font-size: 12px;
+}
+
+.bigcard-icon {
+    transform: scale(0.75);
+}
+
+.bigcard-option:hover {
+    color: #FEBE2A !important;
+}

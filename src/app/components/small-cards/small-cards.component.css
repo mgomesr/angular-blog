@@ -1,0 +1,4 @@
+.smallcard-container {
+    display: flex;
+    flex-direction: row;
+}
