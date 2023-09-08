@@ -3,10 +3,10 @@
 }
 
 .sidebar-container {
-    width: 15%;
     color: #FFF;
     height: 100vh;
-    font-size: 15px;
+    font-size: 13px;
+    white-space: nowrap;
 }
 
 .logo {
@@ -21,7 +21,8 @@ img {
 }
 
 .sidebar-options {
-    padding: 0 15px;
+    padding: 0 10px;
+    margin: 0 10px;
 }
 
 .sidebar-option-single {

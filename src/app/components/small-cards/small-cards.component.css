@@ -1,4 +1,39 @@
 .smallcard-container {
     display: flex;
     flex-direction: row;
+    color: #FFF;
+    margin: 5px;
+    padding: 10px;
+    -webkit-box-shadow: 10px 10px 16px -7px rgba(0,0,0,0.7);
+    -moz-box-shadow: 10px 10px 16px -7px rgba(0,0,0,0.7);
+    box-shadow: 10px 10px 16px -7px rgba(0,0,0,0.7);
+}
+
+.smallcard-image img {
+    cursor: pointer;
+}
+
+.smallcard-image img:hover {
+    transform: scale(1.02);
+}
+
+.smallcard-description {
+    padding: 2px 15px;
+    text-align: justify;
+}
+
+.smallcard-description > h1 {
+    font-size: 18px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+.smallcard-description > h1:hover {
+    color: #FEBE2A !important;
+} 
+
+.smallcard-description > p {
+    font-size: 14px;
+    word-break: break-all;
+    color: #CCC;
 }

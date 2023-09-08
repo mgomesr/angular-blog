@@ -1,0 +1,10 @@
+.main-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.smallcards-container {
+    display: flex;
+    margin: 20px;
+    padding: 5px;
+}
