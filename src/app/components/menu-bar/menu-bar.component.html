@@ -1,1 +1,12 @@
-<p>menu-bar works!</p>
+<div class="menu-container">
+    <div class="menu-search">
+        <input type="text" placeholder="Search..." #deleteText required/>
+        <mat-icon>search</mat-icon>
+        <mat-icon (click)="deletar()">delete</mat-icon>
+    </div>
+    <ul>
+        <li><a href="https://www.youtube.com">YouTube</a></li>
+        <li><a href="https://www.instagram.com.br">Instragram</a></li>
+        <li><a href="https://www.twitter.com.br">Twitter</a></li>
+    </ul>
+</div>

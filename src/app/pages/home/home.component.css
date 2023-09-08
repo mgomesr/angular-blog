@@ -1,6 +1,7 @@
 .main-container {
     display: flex;
     flex-direction: row;
+    width: 100%;
 }
 
 .smallcards-container {
