@@ -8,6 +8,7 @@
     -moz-box-shadow: 10px 10px 16px -7px rgba(0,0,0,0.7);
     box-shadow: 10px 10px 16px -7px rgba(0,0,0,0.7);
     cursor: pointer;
+    height: 220px;
 }
 
 .smallcard-description {
@@ -16,15 +17,22 @@
 }
 
 .smallcard-description > h1 {
-    font-size: 18px;
+    text-align: left;
+    font-size: 15px;
     padding-bottom: 5px;
     cursor: pointer;
+    
 }
 
 .smallcard-description > p {
-    font-size: 14px;
+    font-size: 12px;
+    line-height: 150%;
     word-break: break-all;
     color: #CCC;
+    display: -webkit-box;
+    -webkit-line-clamp: 9;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
 }
 
 .smallcard-container:hover {

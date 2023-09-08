@@ -5,7 +5,8 @@
 }
 
 .smallcards-container {
-    display: flex;
-    margin: 20px;
-    padding: 5px;
+    display: grid;
+    margin: 15px;
+    padding: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
 }

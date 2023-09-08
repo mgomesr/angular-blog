@@ -7,6 +7,7 @@
     -webkit-box-shadow: 10px 10px 16px -7px rgba(0,0,0,0.7);
     -moz-box-shadow: 10px 10px 16px -7px rgba(0,0,0,0.7);
     box-shadow: 10px 10px 16px -7px rgba(0,0,0,0.7);
+    cursor: pointer;
 }
 
 .bigcard-infos {
@@ -19,18 +20,18 @@
 
 .bigcard-main-info > h1 {
     margin-bottom: 7px;
-    font-size: 30px;
+    font-size: 28px;
 }
 
 .bigcard-main-info > h3 {
     margin: 7px 0;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .bigcard-main-info > p {
     margin: 22px 0;
     line-height: 150%;
-    font-size: 16px;
+    font-size: 14px;
     color: #CCC;
 }
 
@@ -57,4 +58,11 @@
 
 .bigcard-option:hover {
     color: #FEBE2A !important;
+}
+
+.bigcard-container:hover {
+    transform: scale(1.010);
+    .bigcard-main-info > h1 {
+        color: #FEBE2A !important;
+    }
 }

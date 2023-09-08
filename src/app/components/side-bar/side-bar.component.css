@@ -45,3 +45,13 @@ img {
 .sidebar-option-single:hover {
     color: #FEBE2A !important;
 }
+
+.sidebar-presentation {
+    text-align: center;
+    align-items: end;
+    margin: 40px 0 5px 0;
+}
+
+.sidebar-presentation > p {
+    font-size: 9px;
+}
