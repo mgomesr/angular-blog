@@ -1,0 +1,13 @@
+.main-container {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+
+.smallcards-container {
+    display: grid;
+    margin: 15px;
+    padding: 5px;
+    grid-template-columns: 1fr 1fr 1fr;
+}

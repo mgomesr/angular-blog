@@ -1,16 +1,17 @@
 <div class="menu-container">
-    <div class="menu-actual">
-        <mat-icon>home</mat-icon>
-        <h3>Home</h3>
-    </div>
+    <a [routerLink]="['']">
+        <div class="menu-actual">
+            <mat-icon>home</mat-icon>
+        </div>
+    </a>
     <div class="menu-search">
         <input type="text" placeholder="Search..." #deleteText required/>
         <mat-icon>search</mat-icon>
         <mat-icon (click)="deletar()">delete</mat-icon>
     </div>
     <ul>
-        <li><a href="https://www.youtube.com">YouTube</a></li>
-        <li><a href="https://www.instagram.com.br">Instragram</a></li>
-        <li><a href="https://www.twitter.com.br">Twitter</a></li>
+        <li><a href="https://www.youtube.com" target="_blank">YouTube</a></li>
+        <li><a href="https://www.instagram.com.br" target="_blank">Instragram</a></li>
+        <li><a href="https://www.twitter.com.br" target="_blank">Twitter</a></li>
     </ul>
 </div>

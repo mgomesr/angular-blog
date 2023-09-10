@@ -1,0 +1,30 @@
+.game-description-container {
+    color: #FFF;
+    margin: 15px 20px;
+    padding: 5px;
+    
+}
+
+.game-description-info {
+    padding: 2px 15px;
+}
+
+.game-description-info > h1 {
+    margin-bottom: 7px;
+    font-size: 28px;
+}
+
+.game-description-info > p {
+    margin: 22px 0;
+    line-height: 150%;
+    font-size: 14px;
+    color: #CCC;
+    text-align: justify;
+}
+
+.game-description-images {
+    padding: 2px 15px 30px 15px;  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

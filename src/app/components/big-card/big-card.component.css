@@ -66,3 +66,7 @@
         color: #FEBE2A !important;
     }
 }
+
+a {
+    text-decoration: none;
+}

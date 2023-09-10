@@ -1,14 +1,11 @@
-<div class="smallcard-container">
-    <div class="smallcard-image">
-        <img
-            src="{{ photoCover }}"
-            alt="{{ altCover}}"
-            width="150px"
-            height="200px"
-        />
+<a [routerLink]="['details', Id]">
+    <div class="smallcard-container">
+        <div class="smallcard-image">
+            <img src="{{ photoCover }}" alt="{{ altCover}}" width="150px" height="200px" />
+        </div>
+        <div class="smallcard-description">
+            <h1> {{ cardTitle }} </h1>
+            <p> {{ cardDescription}} </p>
+        </div>
     </div>
-    <div class="smallcard-description">
-        <h1> {{ cardTitle }} </h1>
-        <p> {{ cardDescription}} </p>
-    </div>
-</div>
+</a>

@@ -1,34 +1,32 @@
-<div class="bigcard-container">
-    <div class="bigcard-main-image">
-        <img
-            src="{{ photoCover }}"
-            alt="{{ altCover }}"
-            width="450px"
-            height="280px" />
-    </div>
-    <div class="bigcard-infos">
-        <div class="bigcard-main-info">
-            <h1> {{ cardTitle }} </h1>
-            <h3> {{ cardPlatafform }} </h3>
-            <p> {{ cardDescription}} </p>
+<a [routerLink]="['details', Id]">
+    <div class="bigcard-container">
+        <div class="bigcard-main-image">
+            <img src="{{ photoCover }}" alt="{{ altCover }}" width="450px" height="280px" />
         </div>
-        <div class="bigcard-options">
-            <div class="bigcard-option">
-                <mat-icon class="bigcard-icon">favorites</mat-icon>
-                <p>Add to Favorites</p>
+        <div class="bigcard-infos">
+            <div class="bigcard-main-info">
+                <h1> {{ cardTitle }} </h1>
+                <h3> {{ cardPlatafform }} </h3>
+                <p> {{ cardDescription}} </p>
             </div>
-            <div class="bigcard-option">
-                <mat-icon class="bigcard-icon">store</mat-icon>
-                <p>Buy Game</p>
-            </div>
-            <div class="bigcard-option">
-                <mat-icon class="bigcard-icon">share</mat-icon>
-                <p>Share With Friends</p>
-            </div>
-            <div class="bigcard-option">
-                <mat-icon class="bigcard-icon">rate_review</mat-icon>
-                <p>Give a Feedback</p>
+            <div class="bigcard-options">
+                <div class="bigcard-option">
+                    <mat-icon class="bigcard-icon">favorite</mat-icon>
+                    <p>Add to Favorites</p>
+                </div>
+                <div class="bigcard-option">
+                    <mat-icon class="bigcard-icon">store</mat-icon>
+                    <p>Buy Game</p>
+                </div>
+                <div class="bigcard-option">
+                    <mat-icon class="bigcard-icon">share</mat-icon>
+                    <p>Share With Friends</p>
+                </div>
+                <div class="bigcard-option">
+                    <mat-icon class="bigcard-icon">rate_review</mat-icon>
+                    <p>Give a Feedback</p>
+                </div>
             </div>
         </div>
     </div>
-</div>
+</a>

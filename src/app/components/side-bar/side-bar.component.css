@@ -4,9 +4,8 @@
 
 .sidebar-container {
     color: #FFF;
-    height: 100vh;
     font-size: 13px;
-    white-space: nowrap;
+    white-space: nowrap;   
 }
 
 .logo {
