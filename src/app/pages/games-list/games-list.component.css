@@ -9,3 +9,13 @@
     padding: 5px;
     grid-template-columns: 1fr 1fr 1fr;
 }
+
+@media screen and (max-width: 420px) {
+    .main-container {
+        flex-direction: column;
+    }
+
+    .smallcards-container {
+        grid-template-columns: 1fr;
+    }
+}

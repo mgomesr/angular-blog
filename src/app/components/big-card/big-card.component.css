@@ -70,3 +70,24 @@
 a {
     text-decoration: none;
 }
+
+@media screen and (max-width: 420px) {
+    .bigcard-container {
+        flex-direction: column;
+    }
+
+    .bigcard-main-image {
+        text-align: center;
+    }
+
+    .bigcard-main-image img {
+        width: 100%;
+        max-width: 530px;
+        margin: 10px;
+    }
+
+    .bigcard-options {
+        display: none;
+    }
+    
+}

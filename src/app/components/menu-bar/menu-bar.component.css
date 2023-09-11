@@ -57,3 +57,9 @@ a {
     text-decoration: none;
     color: #FFF;
 }
+
+@media screen and (max-width: 420px) {
+    .menu-container {
+        display: none;
+    }
+}

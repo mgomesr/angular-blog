@@ -54,3 +54,38 @@ img {
 .sidebar-presentation > p {
     font-size: 9px;
 }
+
+@media screen and (max-width: 420px) {    
+    .logo, hr,
+    .sidebar-presentation {
+        display: none;
+    }
+    
+    .sidebar-options {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .sidebar-option {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;    
+    }
+    
+    .sidebar-option-single {
+        flex-direction: column;
+    }
+
+    .sidebar-options {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .sidebar-option-single > a {
+        padding-left: 0;
+        margin: 3px;
+    }
+    
+    .sidebar-option {
+        margin: 10px 5px;
+    }
+}
