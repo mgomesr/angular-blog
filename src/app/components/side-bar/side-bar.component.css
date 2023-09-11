@@ -5,7 +5,8 @@
 .sidebar-container {
     color: #FFF;
     font-size: 13px;
-    white-space: nowrap;   
+    white-space: nowrap;
+    height: 100%;
 }
 
 .logo {
@@ -47,7 +48,6 @@ img {
 
 .sidebar-presentation {
     text-align: center;
-    align-items: end;
     margin: 40px 0 5px 0;
 }
 
