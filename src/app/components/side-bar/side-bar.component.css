@@ -88,4 +88,8 @@ img {
     .sidebar-option {
         margin: 10px 5px;
     }
+
+    .sidebar-option-hide {
+        display: none;
+    }
 }

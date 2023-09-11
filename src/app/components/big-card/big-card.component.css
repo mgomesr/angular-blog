@@ -81,8 +81,8 @@ a {
     }
 
     .bigcard-main-image img {
-        width: 100%;
-        max-width: 530px;
+        width: 90%;
+        max-width: 500px;
         margin: 10px;
     }
 
@@ -90,4 +90,7 @@ a {
         display: none;
     }
     
+    .bigcard-main-info > h1 {
+        font-size: 20px;
+    }
 }
