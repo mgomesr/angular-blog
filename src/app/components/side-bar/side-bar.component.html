@@ -5,54 +5,76 @@
     <div class="sidebar-options">
         <div class="sidebar-option">
             <div class="sidebar-option-single">
-                <mat-icon>home</mat-icon>
-                <a [routerLink]="['']">Home</a>
+                <a [routerLink]="['/']" [routerLinkActive]="['selected']" [routerLinkActiveOptions]="{exact: true}">
+                    <mat-icon>home</mat-icon>
+                    <p>Home</p>
+                </a>
             </div>
             <div class="sidebar-option-single">
-                <mat-icon>sports_esports</mat-icon>
-                <a [routerLink]="['','games-list']">Games List</a>
+                <a [routerLink]="['/', 'games-list']" [routerLinkActive]="['selected']" [routerLinkActiveOptions]="{exact: true}">
+                    <mat-icon>sports_esports</mat-icon>
+                    <p>Games List</p>
+                </a>
             </div>
             <div class="sidebar-option-single">
-                <mat-icon>category</mat-icon>
-                <a href="#">Categories</a>
+                <a [routerLink]="['/', 'categories']" [routerLinkActive]="['selected']" [routerLinkActiveOptions]="{exact: true}">
+                    <mat-icon>category</mat-icon>
+                    <p>Categories</p>
+                </a>
             </div>
             <div class="sidebar-option-single">
-                <mat-icon>store</mat-icon>
-                <a href="#">Store</a>
-            </div>
-        </div>
-        <hr>
-        <div class="sidebar-option sidebar-option-hide">
-            <div class="sidebar-option-single">
-                <mat-icon>shopping_cart</mat-icon>
-                <a href="#">My Shopping</a>
-            </div>
-            <div class="sidebar-option-single">
-                <mat-icon>favorite</mat-icon>
-                <a href="#">Favorites</a>
-            </div>
-            <div class="sidebar-option-single">
-                <mat-icon>download</mat-icon>
-                <a href="#">Free Downloads</a>
-            </div>
-            <div class="sidebar-option-single">
-                <mat-icon>rate_review</mat-icon>
-                <a href="#">Feedbacks</a>
+                <a [routerLink]="['/', 'store']" [routerLinkActive]="['selected']" [routerLinkActiveOptions]="{exact: true}">
+                    <mat-icon>store</mat-icon>
+                    <p>Store</p>
+                </a>
             </div>
         </div>
         <hr>
         <div class="sidebar-option sidebar-option-hide">
             <div class="sidebar-option-single">
-                <mat-icon>quiz</mat-icon>
-                <a href="#">FAQ</a>
+                <a [routerLink]="['/', 'shopping']" [routerLinkActive]="['selected']" [routerLinkActiveOptions]="{exact: true}">
+                    <mat-icon>shopping_cart</mat-icon>
+                    <p>My Shopping</p>
+                </a>
             </div>
             <div class="sidebar-option-single">
-                <mat-icon>person</mat-icon>
-                <a href="#">About Us</a>
+                <a [routerLink]="['/', 'favorites']" [routerLinkActive]="['selected']" [routerLinkActiveOptions]="{exact: true}">
+                    <mat-icon>favorite</mat-icon>
+                    <p>Favorites</p>
+                </a>
             </div>
             <div class="sidebar-option-single">
-                <mat-icon>policy</mat-icon>
-                <a href="#">Privacy Policy</a>
+                <a [routerLink]="['/', 'download']" [routerLinkActive]="['selected']" [routerLinkActiveOptions]="{exact: true}">
+                    <mat-icon>download</mat-icon>
+                    <p>Free Downloads</p>
+                </a>
+            </div>
+            <div class="sidebar-option-single">
+                <a [routerLink]="['/', 'feedbacks']" [routerLinkActive]="['selected']" [routerLinkActiveOptions]="{exact: true}">
+                    <mat-icon>rate_review</mat-icon>
+                    <p>Feedbacks</p>
+                </a>
+            </div>
+        </div>
+        <hr>
+        <div class="sidebar-option sidebar-option-hide">
+            <div class="sidebar-option-single">
+                <a [routerLink]="['/', 'faq']" [routerLinkActive]="['selected']" [routerLinkActiveOptions]="{exact: true}">
+                    <mat-icon>quiz</mat-icon>
+                    <p>FAQ</p>
+                </a>
+            </div>
+            <div class="sidebar-option-single">
+                <a [routerLink]="['/', 'about']" [routerLinkActive]="['selected']" [routerLinkActiveOptions]="{exact: true}">
+                    <mat-icon>person</mat-icon>
+                    <p>About Us</p>
+                </a>
+            </div>
+            <div class="sidebar-option-single">
+                <a [routerLink]="['/', 'policy']" [routerLinkActive]="['selected']" [routerLinkActiveOptions]="{exact: true}">
+                    <mat-icon>policy</mat-icon>
+                    <p>Privacy Policy</p>
+                </a>
             </div>
         </div>
         <div class="sidebar-presentation">

@@ -92,5 +92,6 @@ a {
     
     .bigcard-main-info > h1 {
         font-size: 20px;
+        text-align: left;
     }
 }
